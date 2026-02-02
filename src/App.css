@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+/* Login */
+.login-container {
+  width: 300px;
+  margin: 120px auto;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 8px;
+  background: #1976d2;
+  color: white;
+  border: none;
+}
+
+/* Navbar */
+.navbar {
+  background: #1976d2;
+  padding: 10px 20px;
+  display: flex;
+  /* ⭐ important */
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Logout button – RIGHT SIDE */
+.logout-btn {
+  margin-left: auto;
+  /* ⭐ pushes button to right edge */
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Card */
+.card {
+  background: white;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 6px;
+}
